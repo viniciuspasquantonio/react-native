@@ -29,7 +29,11 @@ export default class App extends Component{
 
   render() {
     const placesOutput = this.state.places.map((place,i) => (
-      <ListItem key={i} placeName={place}></ListItem>
+      <ListItem 
+        key={i} 
+        placeName={place} 
+        onItemPressed={()=> alert("item pressed, Id:"+i)}
+      />
     ));
     return (
       <View style={styles.container}>
