@@ -21,7 +21,7 @@ export default  class PlaceInput extends Component{
     };
     render() {
         return (
-            <View>
+            <View style={styles.placeInputContainer}>
                 <TextInput
                 placeholder="An awseome place"
                 value={this.state.placeName}
@@ -39,6 +39,9 @@ export default  class PlaceInput extends Component{
 }
 
 const styles = StyleSheet.create({
+    placeInputContainer:{
+        alignSelf: 'stretch',
+    },
     placeInput:{
         width: '70%'
     },
