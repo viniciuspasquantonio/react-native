@@ -40,7 +40,7 @@ export default  class PlaceInput extends Component{
 
 const styles = StyleSheet.create({
     placeInputContainer:{
-        alignSelf: 'stretch',
+        flexDirection: 'row'
     },
     placeInput:{
         width: '70%'

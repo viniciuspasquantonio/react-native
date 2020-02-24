@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 import { statement } from '@babel/template';
 import PlaceList from './src/components/PlaceList/PlaceList';
 import PlaceInput from  './src/components/PlaceInput/PlaceInput';
+import placeImage from './src/assets/santos.jpg';
 export default class App extends Component{
   
   state = {
@@ -13,7 +14,11 @@ export default class App extends Component{
   placeAddedHandler = placeName => {
     this.setState(prevState => {
       return  {
-        places: prevState.places.concat({key:Math.random(),value:placeName})
+        places: prevState.places.concat({
+          key:Math.random(),
+          name:placeName,
+          image:placeImage
+        })
       };
     });
   }
