@@ -1,4 +1,4 @@
-#Mon Feb 17 22:03:41 CET 2020
+#Wed Feb 26 20:00:33 CET 2020
 base.10=/Users/pasquantonio/personal/rn-counrse/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_16.dex
 base.9=/Users/pasquantonio/personal/rn-counrse/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_15.dex
 base.8=/Users/pasquantonio/personal/rn-counrse/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_14.dex

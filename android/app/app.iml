@@ -169,9 +169,9 @@
     <orderEntry type="module" module-name="unimodules-react-native-adapter" />
     <orderEntry type="module" module-name="expo-error-recovery" />
     <orderEntry type="module" module-name="unimodules-permissions-interface" />
-    <orderEntry type="module" module-name="react-native-screens" />
-    <orderEntry type="module" module-name="react-native-reanimated" />
-    <orderEntry type="module" module-name="react-native-gesture-handler" />
+    <orderEntry type="module" module-name="android-react-native-screens" />
+    <orderEntry type="module" module-name="android-react-native-reanimated" />
+    <orderEntry type="module" module-name="android-react-native-gesture-handler" />
     <orderEntry type="module" module-name="unimodules-core" />
     <orderEntry type="module" module-name="expo-app-loader-provider" />
     <orderEntry type="module" module-name="expo-font" />

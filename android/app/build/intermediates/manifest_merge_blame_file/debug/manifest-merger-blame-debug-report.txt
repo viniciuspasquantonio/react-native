@@ -98,92 +98,93 @@
 44-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:30:7-39
 45        android:roundIcon="@mipmap/ic_launcher_round"
 45-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:32:7-52
-46        android:theme="@style/AppTheme" >
-46-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:34:7-38
-47        <activity
-47-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:35:7-44:18
-48            android:name="com.rncouse.MainActivity"
-48-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:36:9-37
-49            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-49-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:38:9-79
-50            android:label="@string/app_name"
-50-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:37:9-41
-51            android:windowSoftInputMode="adjustResize" >
-51-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:39:9-51
-52            <intent-filter>
-52-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:40:9-43:25
-53                <action android:name="android.intent.action.MAIN" />
-53-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:41:13-65
-53-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:41:21-62
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-55-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:42:13-73
-55-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:42:23-70
-56            </intent-filter>
-57        </activity>
-58        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-58-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:45:7-84
-58-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:45:17-81
-59
-60        <provider
-60-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
-61            android:name="expo.modules.filesystem.FileSystemFileProvider"
-61-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
-62            android:authorities="com.rncouse.FileSystemFileProvider"
-62-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
-63            android:exported="false"
-63-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
-64            android:grantUriPermissions="true" >
-64-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
-65            <meta-data
-65-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
-66                android:name="android.support.FILE_PROVIDER_PATHS"
-66-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
-67                android:resource="@xml/file_system_provider_paths" />
-67-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
-68        </provider>
-69
-70        <service
-70-->[:expo-location] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
-71            android:name="expo.modules.location.services.LocationTaskService"
-71-->[:expo-location] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
-72            android:exported="false" />
-72-->[:expo-location] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
-73
-74        <activity
-74-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-75-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-76            android:exported="false"
-76-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-78
-79        <meta-data
-79-->[com.google.android.gms:play-services-basement:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/8dac2c3804c80d5138dd6c1da441b20a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
-80            android:name="com.google.android.gms.version"
-80-->[com.google.android.gms:play-services-basement:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/8dac2c3804c80d5138dd6c1da441b20a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
-81            android:value="@integer/google_play_services_version" />
-81-->[com.google.android.gms:play-services-basement:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/8dac2c3804c80d5138dd6c1da441b20a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
-82
-83        <service
-83-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
-84            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
-84-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
-85            android:exported="false" />
-85-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
-86        <service
-86-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
-87            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
-87-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
-88            android:exported="false" />
-88-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
-89        <service
-89-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
-90            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
-90-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
-91            android:exported="false" />
-91-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
-92    </application>
-93
-94</manifest>
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme" >
+47-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:34:7-38
+48        <activity
+48-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:35:7-44:18
+49            android:name="com.rncouse.MainActivity"
+49-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:36:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+50-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:38:9-79
+51            android:label="@string/app_name"
+51-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:37:9-41
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:39:9-51
+53            <intent-filter>
+53-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:40:9-43:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:41:13-65
+54-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:41:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:42:13-73
+56-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:42:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+59-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:45:7-84
+59-->/Users/pasquantonio/personal/rn-counrse/android/app/src/main/AndroidManifest.xml:45:17-81
+60
+61        <provider
+61-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+62            android:name="expo.modules.filesystem.FileSystemFileProvider"
+62-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+63            android:authorities="com.rncouse.FileSystemFileProvider"
+63-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+64            android:exported="false"
+64-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+65            android:grantUriPermissions="true" >
+65-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+66            <meta-data
+66-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+68                android:resource="@xml/file_system_provider_paths" />
+68-->[:expo-file-system] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+69        </provider>
+70
+71        <service
+71-->[:expo-location] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+72            android:name="expo.modules.location.services.LocationTaskService"
+72-->[:expo-location] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+73            android:exported="false" />
+73-->[:expo-location] /Users/pasquantonio/personal/rn-counrse/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fccd8752e738588a059bef169699be55/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/8dac2c3804c80d5138dd6c1da441b20a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/8dac2c3804c80d5138dd6c1da441b20a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:16.0.1] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/8dac2c3804c80d5138dd6c1da441b20a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+83
+84        <service
+84-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+85            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+85-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+86            android:exported="false" />
+86-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+87        <service
+87-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+88            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+88-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+89            android:exported="false" />
+89-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+90        <service
+90-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+91            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+91-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+92            android:exported="false" />
+92-->[io.nlopez.smartlocation:library:3.2.11] /Users/pasquantonio/.gradle/caches/transforms-2/files-2.1/fb678bd1caaeebcdecb3209ba3d32af0/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+93    </application>
+94
+95</manifest>
